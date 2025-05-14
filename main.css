@@ -20,11 +20,11 @@ body {
 
 #um {
   float: right;
-  margin-left: 14px;
-  margin-right: 10px;
+  height: 80px;
   margin-top: 10px;
-  height: 100px;
+  margin-left: 20px;
 }
+
 
 #quick-links {
   list-style-type: none;
@@ -37,8 +37,11 @@ body {
 }
 
 .section-alt {
-  background-color: #d5f8da;
+  background-color: #e8f1f9;
+  /* padding: 2px 0; lets reduce it: */ 
+    padding: 2px 2px;
 }
+
 
 .content {
   margin: 0 auto;
@@ -153,4 +156,53 @@ body {
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+.two-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.column-left,
+.column-right {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #00274c; /* UMich Blue */
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffcb05; /* UMich Maize */
+  color: #00274c;
+}
+.slogan {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #444;
+  text-align: center;
+}
+
+.cta-button.small {
+  font-size: 16px;
+  padding: 8px 18px;
+}
+
+.section-lightgray {
+  background-color: #f8f9fa;
 }
