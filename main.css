@@ -206,3 +206,17 @@ ul {
 .section-lightgray {
   background-color: #f8f9fa;
 }
+
+.lab-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.lab-logos img {
+  height: 60px; /* consistent height */
+  object-fit: contain;
+}
